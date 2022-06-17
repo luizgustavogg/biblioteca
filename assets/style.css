@@ -516,32 +516,34 @@ section .item-ex:hover {
   background-color: #195b5b;
   color: #fff;
 }
-@media (min-width: 500px){
-  .footer-text{
+
+@media (min-width: 500px) {
+  .footer-text {
     display: flex;
     flex-direction: column;
     gap: 100px;
   }
 }
 
-@media (min-width: 1024px){
-  .footer-text{
+@media (min-width: 1024px) {
+  .footer-text {
     display: flex;
     flex-direction: row;
     gap: 100px;
   }
 }
-.footer-text{
-  padding: 10px;
+
+.footer-text {
+  padding: 20px;
 }
 
-.footer-link{
+.footer-link {
   display: flex;
   flex-direction: column;
   gap: 5px;
 }
 
-.cnt{
+.cnt {
   gap: 20px;
 }
 
@@ -549,7 +551,7 @@ section .item-ex:hover {
   font-size: .89em;
 }
 
-.footer-link a{
+.footer-link a {
   border-left: 3px solid #Fff;
   padding: 10px;
   text-decoration: none;
@@ -557,17 +559,17 @@ section .item-ex:hover {
   transition: ease 0.2s all;
 }
 
-.footer-link a:hover{
+.footer-link a:hover {
   border-color: #157c7c;
   background-color: #185252;
 }
 
-.footer-social a{
+.footer-social a {
   color: #fff;
   padding: 10px;
 }
 
-.footer-social a{
+.footer-social a {
   transition: 150ms all;
 }
 
