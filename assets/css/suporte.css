@@ -1,0 +1,62 @@
+.sup {
+  padding: 20px;
+}
+
+.sup p {
+  padding: 20px;
+  margin-bottom: 10px;
+  background: #064d4d;
+  color: #fff;
+  padding: 20px;
+}
+
+@media (min-width: 1024px) {
+  .sup-input {
+    margin-left: 240px;
+  }
+
+  .sup-input input,
+  .sup-input textarea {
+    width: 800px;
+    padding: 5px;
+  }
+
+  .sup-input button {
+    margin-left: 160px;
+  }
+}
+
+@media (min-width: 500px) {
+  .btn {
+    margin-left: 80px;
+  }
+}
+
+.sup-input {
+  display: flex;
+  flex-direction: column;
+}
+
+.sup-input label {
+  padding: 10px;
+}
+
+.sup-input input {
+  padding: 5px;
+}
+
+.sup-input button {
+  margin-top: 20px;
+  border-radius: 5px;
+  border: none;
+  background: #064d4d;
+  color: #fff;
+  width: 300px;
+  padding: 14px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.sup-input button:hover {
+  background: #076868;
+}

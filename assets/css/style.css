@@ -11,127 +11,10 @@ body {
   background-color: #f7f7f7;
 }
 
-.wrapper {
-  margin: 0 auto;
-  margin-top: 100px;
-  background-color: #fff;
-  width: 450px;
-  border-radius: 10px;
-  box-shadow: 0 0 120px 0 rgba(0, 0, 0, 0.3);
-
-}
-
-.form {
-  padding: 25px 30px;
-}
-
-.header {
-  font-size: 25px;
-  font-weight: 600px;
-  padding-bottom: 10px;
-  border-bottom: 1px solid #e6e6e6;
-}
-
-.form form {
-  margin: 20px 0;
-}
-
-.form form .error-txt {
-  color: #721c24;
-  background: #f8d7da;
-  padding: 8px 10px;
-  text-align: center;
-  border-radius: 5px;
-  margin-bottom: 10px;
-  border: 1px solid #f5c6cb;
-  display: none;
-}
-
-.form form .field {
-  display: flex;
-  position: relative;
-  flex-direction: column;
-  margin-bottom: 10px;
-}
-
-.form form .field label {
-  margin-bottom: 5px;
-}
-
-.form form .field input {
-  outline: none;
-}
-
-.form form .input input {
-  height: 40px;
-  width: 100%;
-  font-size: 16px;
-  padding: 0 10px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-}
-
-.form form .input select {
-  padding: 50px;
-  font-size: 16px;
-  padding: 0 10px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-}
-
-.form form .image input {
-  font-size: 17px;
-}
-
-.form form .button input {
-  margin-top: 10px;
-  height: 45px;
-  border: none;
-  font-size: 17px;
-  font-weight: 500px;
-  background: #333;
-  color: #fff;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-.form form .field i img {
-  width: 20px;
-}
-
-.form form .field i {
-  position: absolute;
-  right: 15px;
-  color: #ccc;
-  top: 70%;
-  transform: translateY(-50%);
-  cursor: pointer;
-}
-
-.form form .field i.active::before {
-  content: "\f070";
-  color: #333;
-}
-
-.form .link {
-  text-align: center;
-  margin: 10px 0;
-  font-size: 17px;
-}
-
-.form .link a {
-  color: #333;
-}
-
-.form .link a:hover {
-  text-decoration: underline;
-}
-
-
 /* principal */
 
 header {
-  background-image: url(../img/Rbg.png);
+  background-image: url(../../img/Rbg.png);
   background-repeat: no-repeat;
   background-size: cover;
 
@@ -143,7 +26,7 @@ header {
 }
 
 .hed-content {
-  background-image: url(../img/R.png);
+  background-image: url(../../img/R.png);
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 20px;
@@ -390,25 +273,6 @@ a {
   text-align: center;
 }
 
-/* menu */
-.content {
-  margin-top: 20px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.content img {
-  border: 1px solid black;
-  object-fit: cover;
-  border-radius: 100%;
-  width: 200px;
-}
-
-.menu-card {
-  padding: 40px;
-}
 
 /* exposiao */
 

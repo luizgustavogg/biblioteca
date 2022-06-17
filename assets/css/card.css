@@ -1,0 +1,155 @@
+.wrapper {
+  margin: 0 auto;
+  margin-top: 100px;
+  background-color: #fff;
+  width: 450px;
+  border-radius: 10px;
+  box-shadow: 0 0 120px 0 rgba(0, 0, 0, 0.3);
+
+}
+
+.form {
+  padding: 25px 30px;
+}
+
+.header {
+  font-size: 25px;
+  font-weight: 600px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.form form {
+  margin: 20px 0;
+}
+
+.form form .error-txt {
+  color: #721c24;
+  background: #f8d7da;
+  padding: 8px 10px;
+  text-align: center;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #f5c6cb;
+  display: none;
+}
+
+.form form .field {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.form form .field label {
+  margin-bottom: 5px;
+}
+
+.form form .field input {
+  outline: none;
+}
+
+.form form .input input {
+  height: 40px;
+  width: 100%;
+  font-size: 16px;
+  padding: 0 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form form .input select {
+  padding: 50px;
+  font-size: 16px;
+  padding: 0 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form form .image input {
+  font-size: 17px;
+}
+
+.form form .button input {
+  margin-top: 10px;
+  height: 45px;
+  border: none;
+  font-size: 17px;
+  font-weight: 500px;
+  background: #064d4d;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.form form .button input:hover {
+  background: #076868;
+}
+
+.form form .field i img {
+  width: 20px;
+}
+
+
+.form .link {
+  text-align: center;
+  margin: 10px 0;
+  font-size: 17px;
+}
+
+.form .link a {
+  color: #064d4d;
+}
+
+.form .link a:hover {
+  text-decoration: underline;
+}
+
+
+
+/* perfil */
+
+@media(min-width: 500px) {
+  .content {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media(min-width: 1024px) {
+  .content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+
+.content {
+  margin-top: 20px;
+  align-items: center;
+}
+
+.content img {
+  object-fit: cover;
+  border-radius: 100%;
+  width: 200px;
+}
+
+.menu-card {
+  padding: 40px;
+}
+
+.infor {
+  padding: 20px;
+  margin-top: 10px;
+}
+
+.perfil {
+  width: 60%;
+}
+
+.infor a {
+  color: red;
+}
