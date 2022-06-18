@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../assets/css/style.css">
+  <link rel="stylesheet" href="../assets/css/registro-p.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <section class="nav">
+    <ul class="main-nav">
+      <li><a href="index.php">Home</a></li>
+      <li><a href="#catalog">Catalogo</a></li>
+      <li><a href="rota.php">
+          <?php echo $result ?>
+        </a></li>
+      <li><a href="#contact">SUPORTE</a></li>
+    </ul>
+  </section>
+
+  <div class="registro-list">
+    <a href="bate-papo.php?user_id='. $row['unique_id'] .'">
+      <div class="content">
+        <img src="php/images/' . $row['img'] . '" alt="">
+        <div class="details">
+          <span>'. $row['nome'] . " " . $row['snome'] .'</span>
+          <p>'. $you . $msg .'</p>
+        </div>
+      </div>
+      <div class="status-dot">'. $offline .'<i class="fas fa-circle"><img src="img/fas fa-circle.png" alt=""></i></div>
+    </a>
+  </div>
+</body>
+
+</html>
