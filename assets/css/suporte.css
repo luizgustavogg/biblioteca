@@ -41,7 +41,9 @@
   padding: 10px;
 }
 
-.sup-input input {
+.sup-input input,
+.sup-input textarea {
+
   padding: 5px;
 }
 
